@@ -9,7 +9,7 @@ public class KeyboardPresser extends JFrame{
 	private JTextField txtDelay;
 	private JButton btnStop;
 	private JButton btnStart;
-	String[] keyStrings = {"Space","Click"};
+	String[] keyStrings = {"Space","Click"};  //If you want more keys in the JComboBox you can add them to this array.
 	private String entKey = "";
 	private JLabel errMessage;
 	private String txtError = "";
